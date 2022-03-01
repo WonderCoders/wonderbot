@@ -23,7 +23,7 @@ module.exports = {
         return;
       }
     }
-    if (!args) {
+    if (!args[0]) {
       return message.reply("Please provide your github username");
     }
     message.reply(

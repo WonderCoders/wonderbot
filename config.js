@@ -3,6 +3,6 @@ module.exports = {
   app: {
     px: ".",
     token: process.env.TOKEN,
-    playing: ".help",
+    playing: ".apply",
   },
 };
